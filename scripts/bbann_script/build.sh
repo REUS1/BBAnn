@@ -6,8 +6,8 @@
 DATA_TYPE=uint8
 #DATA_TYPE=int8
 #DATA_TYPE=float
-DATA_FILE=/home/cqy/dataset/learn.100M.u8bin
-INDEX_PATH=/home/cqy/dataset/BBANN-BIGANN
+DATA_FILE=/home/zilliz/dataset/learn.100M.u8bin
+INDEX_PATH=/home/zilliz/dataset/BBANN-BIGANN
 HNSW_M=100
 HNSW_EF=200
 METRIC_TYPE=L2
