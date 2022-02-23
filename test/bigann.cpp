@@ -31,8 +31,10 @@
 #ifdef Yandex_Text_to_Image
     using CODE_T = float;
     using DIS_T = float;
-    const char* Learn_Path = "data/Yandex_Text-to-Image/query.learn.50M.fbin";
-    const char* Query_Path = "data/Yandex_Text-to-Image/query.public.100K.fbin";
+    const char* Learn_Path = "/home/zilliz/huqi/dataset/Text_to_Image/query.learn.50M.fbin";
+    const char* Query_Path = "/home/zilliz/huqi/dataset/Text_to_Image/query.public.100K.fbin";
+    // const char* Learn_Path = "data/Yandex_Text-to-Image/query.learn.50M.fbin";
+    // const char* Query_Path = "data/Yandex_Text-to-Image/query.public.100K.fbin";
     #define Dis_Compare     CMin<float,int>
     #define Dis_Computer    IP<const CODE_T, const CODE_T, DIS_T>
     #define OUT_PUT         "yandex_text_to_image"
