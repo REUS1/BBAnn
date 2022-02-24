@@ -14,8 +14,8 @@
     using DIS_T = int32_t;
     // const char* Learn_Path = "../../data/BIGANN/learn.100M.u8bin";
     // const char* Query_Path = "../../data/BIGANN/query.public.10K.u8bin";
-    const Learn_Path = "/home/zilliz/dataset/learn.100M.u8bin";
-    const Query_Path = "/home/zilliz/dataset/query.public.10K.u8bin";
+    const char* Learn_Path = "/home/zilliz/dataset/learn.100M.u8bin";
+    const char* Query_Path = "/home/zilliz/dataset/query.public.10K.u8bin";
     #define Dis_Compare     CMax<int,int>
     #define Dis_Computer    L2sqr<const CODE_T, const CODE_T, DIS_T>
     #define METRIC_TYPE     MetricType::L2

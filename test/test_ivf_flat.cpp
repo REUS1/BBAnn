@@ -90,7 +90,7 @@ int nlist = 2048;
 int nprobe = 24;
 float* centroids = nullptr;
 std::vector<std::vector<CODE_T>> codes;
-std::vector<std::vector<int32_t>> ids;
+std::vector<std::vector<uint32_t>> ids;
 
 void IVF_Train(int batch_from, int batch_num) {
     centroids = new float[nlist * dim];

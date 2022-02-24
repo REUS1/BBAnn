@@ -16,8 +16,8 @@
 #ifdef BigAnn
     using CODE_T = uint8_t;
     using DIS_T = int32_t;
-    const Learn_Path = "/home/zilliz/dataset/learn.100M.u8bin";
-    const Query_Path = "/home/zilliz/dataset/query.public.10K.u8bin";
+    const char* Learn_Path = "/home/zilliz/dataset/learn.100M.u8bin";
+    const char* Query_Path = "/home/zilliz/dataset/query.public.10K.u8bin";
     // const char* Learn_Path = "../../data/BIGANN/learn.100M.u8bin";
     // const char* Query_Path = "../../data/BIGANN/query.public.10K.u8bin";
     #define Dis_Compare     CMax<int32_t,uint32_t>
