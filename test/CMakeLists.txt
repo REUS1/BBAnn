@@ -12,7 +12,7 @@ target_link_libraries(test_rpq BigAnn)
 add_executable(test_refine_id test_refine_id.cpp)
 target_link_libraries(test_refine_id BigAnn)
 
-add_executable(test_ivf_flat, test_ivf_flat.cpp)
+add_executable(test_ivf_flat test_ivf_flat.cpp)
 target_link_libraries(test_ivf_flat BigAnn)
 
 #add_executable(test_build_bigann build_bigann.cpp)
